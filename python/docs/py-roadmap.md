@@ -6,7 +6,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📂 Final Folder Structure for Documentation**
 
-```
+```ini
 📂 Python Mastery Docs
    ├── 1.py-setup
    ├── 2.py-core
@@ -30,7 +30,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 1. `py-setup` → Python Installation & Setup**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - How Python Works (Interpreter, Bytecode, GIL)
 - Installing Python (Windows, macOS, Linux)
@@ -42,7 +42,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 2. `py-core` → Python Core Language Features**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Variables & Data Types (`int`, `float`, `str`, `bool`)
 - Sequences: Lists, Tuples, Sets, Dictionaries
@@ -55,7 +55,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 3. `py-oop` → Object-Oriented Programming in Python**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Classes & Objects (`class`, `self`, `__init__`)
 - Inheritance (`super()`, `@override`)
@@ -69,7 +69,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 4. `py-modules` → Modules, Packages, Libraries & Frameworks**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Difference between Modules, Packages, Libraries & Frameworks
 - Importing Modules (`import`, `from`, `as`)
@@ -81,7 +81,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 5. `py-files` → File Handling in Python**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Reading & Writing Files (`open()`, `with`)
 - File Handling Modes (`r`, `w`, `a`, `rb`, `wb`)
@@ -93,7 +93,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 6. `py-parallelism-concurrency` → Multi-threading & Async Programming**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Threading in Python (`threading` module)
 - Multiprocessing (`multiprocessing` module)
@@ -105,7 +105,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 7. `py-advanced` → Advanced Python Features & Metaprogramming**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Iterators & Generators (`yield`, `next()`)
 - Decorators (`@property`, `@staticmethod`, `@functools.wraps`)
@@ -118,7 +118,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 8. `py-dsa` → Data Structures & Algorithms in Python**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Lists vs Tuples vs Sets vs Dictionaries (Performance & Use Cases)
 - Linked Lists (Single & Doubly)
@@ -132,7 +132,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 9. `py-networking` → Networking & Socket Programming**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Python `socket` Module (TCP/UDP Communication)
 - HTTP Requests using `requests` Library
@@ -144,7 +144,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 10. `py-web` → Web Development in Python**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Flask (Lightweight Web Framework)
 - Django (Full-Stack Web Framework)
@@ -157,7 +157,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 11. `py-databases` → Working with Databases in Python**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - SQL Databases (`sqlite3`, `PostgreSQL`, `MySQL`)
 - ORM (Django ORM, SQLAlchemy)
@@ -169,7 +169,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 12. `py-testing` → Testing, Debugging & Logging**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Unit Testing (`unittest`, `pytest`)
 - Mocking & Patching (`unittest.mock`)
@@ -181,7 +181,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 13. `py-devops` → DevOps, Automation & Cloud Integration**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Automating Tasks (`subprocess`, `os`, `shutil`)
 - Docker & Kubernetes (`docker-py`)
@@ -193,7 +193,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 14. `py-cli` → Building Command-Line Interfaces**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - `argparse` (Basic CLI parsing)
 - `click` (Advanced CLI framework)
@@ -204,7 +204,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 15. `py-security` → Security, Cryptography & Secure Coding**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - Cryptography (`pycryptodome`, `hashlib`)
 - Secure Password Hashing (`bcrypt`, `argon2`)
@@ -215,7 +215,7 @@ This is a **fully categorized Python roadmap** to help you **create structured d
 
 ## **📌 16. `py-system` → OS & System Programming in Python**
 
-### 📖 Topics to Cover:
+### 📖 Topics to Cover
 
 - OS Module (`os`, `sys`, `shutil`)
 - Process Management (`subprocess`, `multiprocessing`)
