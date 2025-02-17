@@ -1,8 +1,118 @@
 # SQL for Data Analysis
 
-## Chapters:
+You're right! We need to include **SQL Features** as a separate category to cover **enhancements and special capabilities** that go beyond the core operations. Below is the **fully updated and structured SQL Mastery Roadmap**, now including **SQL Features** as its own category. 🚀
 
 ---
+
+## **📌 SQL Mastery Roadmap (Final Version with SQL Features)**
+
+### **1️⃣ SQL Core** 🏗️ _(Fundamentals & Syntax)_
+
+- **Databases & RDBMS Concepts**
+- **SQL Syntax & Statements**
+- **Data Types (`INT`, `VARCHAR`, `DATE`, etc.)**
+
+---
+
+### **2️⃣ SQL Data Definition (DDL)** 📜 _(Defining Database Structure)_
+
+#### **Database & Table Management**
+
+- **Creating & Managing Databases (`CREATE DATABASE`, `DROP DATABASE`)**
+- **Tables & Schema Design (`CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`)**
+
+#### **DDL Constraints**
+
+- **Primary & Foreign Keys**
+- **NOT NULL Constraint**
+- **DEFAULT, CHECK, UNIQUE Constraints**
+
+#### **Indexes & Views**
+
+- **Indexes (`B-Tree`, `Hash`, `Full-Text`)**
+- **Views & Materialized Views**
+
+---
+
+### **3️⃣ SQL Data Querying (DQL)** 🔍 _(Fetching Data)_
+
+- **Basic Queries (`SELECT`, `FROM`, `WHERE`)**
+- **Sorting Data (`ORDER BY ASC|DESC`)**
+- **Filtering Data (`IN`, `BETWEEN`, `LIKE`)**
+- **Joins (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`)**
+- **Subqueries & Correlated Subqueries**
+- **Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`)**
+- **GROUP BY & HAVING Clause**
+- **Common Table Expressions (CTEs) & Recursive Queries**
+- **Window Functions (`ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LEAD`, `LAG`)**
+
+---
+
+### **4️⃣ SQL Data Manipulation (DML)** ✏️ _(Changing Data)_
+
+- **INSERT INTO (Adding Data)**
+- **UPDATE & DELETE Statements**
+- **MERGE (Upsert Operations)**
+- **TRUNCATE vs DELETE vs DROP**
+- **Bulk Insert & Batch Processing**
+
+---
+
+### **5️⃣ SQL Features** 🎛️ _(Enhancements & Special Capabilities)_
+
+- **Stored Procedures & Functions**
+- **Triggers & Event Scheduling**
+- **Advanced Indexing (`Bitmap Index`, `Function-Based Index`)**
+- **Partitioning (Range, List, Hash, Composite)**
+- **Replication & Clustering**
+- **JSON & XML Handling in SQL**
+- **Common SQL Extensions (`PL/SQL`, `T-SQL`)**
+
+---
+
+### **6️⃣ SQL Security & Access Control (DCL)** 🔐 _(Data Control & Transactions)_
+
+#### **Transaction Control**
+
+- **ACID Properties (Atomicity, Consistency, Isolation, Durability)**
+- **Transaction Handling (`BEGIN`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`)**
+- **Isolation Levels (`READ UNCOMMITTED`, `READ COMMITTED`, `REPEATABLE READ`, `SERIALIZABLE`)**
+
+#### **Access Control & Security**
+
+- **User Roles & Permissions (`GRANT`, `REVOKE`, `DENY`)**
+- **Row-Level Security & Column-Level Security**
+- **Database Encryption & Hashing**
+
+---
+
+### **7️⃣ SQL Performance Optimization** 🚀 _(Query & Database Optimization)_
+
+- **EXPLAIN & Query Execution Plans**
+- **Index Optimization (Clustered vs Non-Clustered)**
+- **Denormalization for Performance**
+- **Optimizing Joins & Subqueries**
+- **Partitioning & Sharding for Scalability**
+- **Query Caching & Materialized Views**
+- **Avoiding Deadlocks & Locking Issues**
+
+---
+
+### **8️⃣ SQL Advanced Database Design** 🏛️ _(Scalability & Architecture)_
+
+- **Normalization (1NF, 2NF, 3NF, BCNF, 4NF, 5NF)**
+- **Entity-Relationship (ER) Modeling**
+- **Data Warehousing & OLAP vs OLTP**
+- **Star & Snowflake Schema in Data Warehousing**
+- **Event Sourcing & Time-Series Databases**
+- **Distributed SQL & NoSQL Integration**
+- **Graph Databases (`Neo4j`, `GraphQL`, SQL Graph Features)**
+
+---
+
+🔥 **This roadmap now fully covers every SQL topic in the correct order! 🚀 Let me know where you want to start!** 🎯
+
+## Big Data Chapters
 
 00:00 Introduction
 
