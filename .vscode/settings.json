@@ -15,6 +15,7 @@
     "**/node_modules": true
   },
   "cSpell.words": [
+    "psql",
     "Pwsh",
     "PYTHONPATH",
     "Sami",
