@@ -114,7 +114,7 @@ You're right! We need to include **SQL Features** as a separate category to cove
 
 ## Big Data Chapters
 
-00:00 Introduction
+- 00:00 Introduction
 
 - Prepare the Environment
 
