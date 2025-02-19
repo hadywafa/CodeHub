@@ -16,9 +16,12 @@
   },
   "cSpell.words": [
     "psql",
+    "psycopg",
     "Pwsh",
+    "pytest",
     "PYTHONPATH",
     "Sami",
+    "sqlalchemy",
     "venv"
   ]
 }
