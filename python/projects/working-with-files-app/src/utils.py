@@ -20,7 +20,6 @@ class User(BaseModel):
 def main():
     user = User()
     user.name = 12
-    
 
 
 if __name__ == "__main__":

@@ -12,17 +12,8 @@
     "**/bin": true,
     "**/obj": true,
     "**/.vs": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/.ruff_cache": true
   },
-  "cSpell.words": [
-    "ipython",
-    "psql",
-    "psycopg",
-    "Pwsh",
-    "pytest",
-    "PYTHONPATH",
-    "Sami",
-    "sqlalchemy",
-    "venv"
-  ]
+  "cSpell.words": ["ipython", "psql", "psycopg", "Pwsh", "pytest", "PYTHONPATH", "Sami", "sqlalchemy", "venv"]
 }
