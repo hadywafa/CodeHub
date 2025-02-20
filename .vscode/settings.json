@@ -16,10 +16,6 @@
     "**/.ruff_cache": true
   },
   "cSpell.words": ["ipython", "psql", "psycopg", "Pwsh", "pytest", "PYTHONPATH", "Sami", "sqlalchemy", "venv"],
-  // "python.defaultInterpreterPath": "${workspaceFolder}/**/.venv/Scripts/python.exe"
-  "python.defaultInterpreterPath": "",
-  "python.terminal.activateEnvironment": true,
-
-  // "python.defaultInterpreterPath": "${workspaceFolder}/python/projects/working-with-postgres/.venv/Scripts/python.exe",
-  // "python.defaultInterpreterPath": "${workspaceFolder}/python/projects/working-with-files-app/.venv/Scripts/python.exe",
+   // "python.defaultInterpreterPath": "${workspaceFolder}/python/projects/working-with-postgres/.venv/Scripts/python.exe",
+  "python.defaultInterpreterPath": "${workspaceFolder}/python/projects/working-with-sqlalchemy/.venv/Scripts/python.exe",
 }
