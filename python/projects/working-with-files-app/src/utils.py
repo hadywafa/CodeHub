@@ -1,4 +1,4 @@
-from pydantic import BaseModel, PositiveInt
+from pydantic import BaseModel
 from datetime import datetime
 
 
@@ -11,14 +11,13 @@ class User(BaseModel):
     id: int
     name: str = "John Doe"
     signup_ts: datetime | None
-    tastes: dict[str, PositiveInt]
 
 
 # =================================================================================================================
 
 
 def main():
-    user = User()
+    user: User = User()
     user.name = 12
 
 
