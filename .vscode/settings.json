@@ -17,5 +17,5 @@
   },
   "cSpell.words": ["ipython", "psql", "psycopg", "Pwsh", "pytest", "PYTHONPATH", "Sami", "sqlalchemy", "venv"],
    // "python.defaultInterpreterPath": "${workspaceFolder}/python/projects/working-with-postgres/.venv/Scripts/python.exe",
-  "python.defaultInterpreterPath": "${workspaceFolder}/python/projects/working-with-sqlalchemy/.venv/Scripts/python.exe",
+  "python.defaultInterpreterPath": "${workspaceFolder}/python/projects/working-with-orm/.venv/Scripts/python.exe",
 }
