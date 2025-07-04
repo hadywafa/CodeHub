@@ -1,41 +1,45 @@
-// Hello.java
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Hello {
-    public static void main(String[] args) {
 
-        var list1 = new ArrayList<Integer>();
-        list1.add(10);
-        list1.add(20);
-        list1.add(1, 15); // Insert at index
-        list1.remove(0); // Remove by index
-        System.out.println(list1); // [Orange, Banana]
-        // ------------------------------------
-        LinkedList<String> list2 = new LinkedList<>();
-        list2.add("Apple");
-        list2.addFirst("Orange");
-        list2.addLast("Banana");
-        list2.remove("Apple");
-        System.out.println(list2); // [Orange, Banana]
-        // ------------------------------------
-        System.out.println();
+    public static void main(String[] args) throws InterruptedException {
+
+        Set<Employee> set = new TreeSet<>();
+        set.add(new Employee(101, "Raj"));
+        set.add(new Employee(100, "Sara"));
+        set.add(new Employee(100, "Ahmed")); // Duplicate
+        System.out.println(set); // Sorted by ID
     }
 
 }
 
-class Vehicle {
-    void start() {
-        System.out.println("Engine starts");
+class Employee implements Comparable<Employee> {
+    int id;
+    String name;
+
+    public Employee(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public int compareTo(Employee other) {
+        return this.id - other.id;
+    }
+
+    public String toString() {
+        return id + " : " + name;
     }
 }
 
-class Car extends Vehicle {
-    @Override
-    void start() { // ❌ Cannot override final method
-        System.out.println("Car starts");
+class HwHelper {
+
+    // 💤 Reusable sleep helper
+    public static void sleep(long ms) {
+        try {
+            Thread.sleep(ms);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt(); // Best practice
+            System.err.println("Sleep interrupted");
+        }
     }
 }
