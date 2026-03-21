@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="HelloWorld"/>
+	<classpathentry kind="src" path="JavaConcurrency"/>
+	<classpathentry kind="src" path="SpringBootDemo/src/main/java"/>
+	<classpathentry kind="src" path="SpringBootDemo/src/test/java"/>
+	<classpathentry kind="lib" path="SpringBootDemo/target/springbootdemo-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="SpringBootDemo/target/classes"/>
+</classpath>
