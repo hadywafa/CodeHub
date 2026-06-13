@@ -1,5 +1,5 @@
 # basic functions
-def say_hello(name: str) -> str:
+def say_hello(name: str) -> None:
     print(f"Hello, {name}")
 
 
