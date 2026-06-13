@@ -13,7 +13,7 @@
     },
     {
       "type": "java",
-      "name": "Hello",
+      "name": "Hello-Java",
       "request": "launch",
       "mainClass": "Hello",
       "projectName": "CodeHub_13807131"
@@ -24,14 +24,14 @@
       "request": "launch",
       "program": "${workspaceFolder}/automation/configure-kodekloud-access-key/main.py",
       "console": "integratedTerminal",
-      "args": [
-        "--account-id",
-        "590183819111",
-        "--username",
-        "kk_labs_user_908452",
-        "--password",
-        "24hs!loolTq%"
-      ]
+      "args": ["--account-id", "590183819111", "--username", "kk_labs_user_908452", "--password", "24hs!loolTq%"]
+    },
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
     }
   ]
 }
