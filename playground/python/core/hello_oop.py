@@ -1,4 +1,7 @@
 # class
+from hello_functions import section
+
+
 class human:
     def __init__(self, name: str) -> None:
         self.name = name
@@ -18,7 +21,7 @@ class human:
 
 # if the file is run directly (not imported as a module) then the main function is executed
 if __name__ == "__main__":
-    print(f"============= main from {__file__.split('/')[-1]} =============")
+    section(f"main from {__file__.split('/')[-1]}")
     human1 = human("John Doe")
     print(human1)
     print(human1.say_hello())

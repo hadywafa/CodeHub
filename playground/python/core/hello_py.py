@@ -1,3 +1,8 @@
+from hello_functions import section
+
+
+section(f"{__file__.split('/')[-1]}")
+
 ## Looping
 names: list[str] = [
     "hady",
